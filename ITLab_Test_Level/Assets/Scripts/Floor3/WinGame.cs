@@ -28,10 +28,10 @@ public class WinGame : MonoBehaviour
         b2.gameObject.SetActive(true);
         Player.EndGame();
         text.gameObject.SetActive(false);
-        endtext.SetText("Спасибо что посмотрели этот проект! \nВыберете что сделать дальше:");
+        endtext.SetText("Спасибо что посмотрели этот проект! \nВыберите что сделать дальше:");
     }
     public void Exit() {
-        Exit();
+        Application.Quit();
     }
     // Update is called once per frame
     void Update()
